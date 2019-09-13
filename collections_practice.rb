@@ -26,9 +26,11 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.select 
+  strings.select do |word| word.start_with?("a")
+ end
+end
   
-
+[1,2,3,4,5].select{|i| i.odd?} #=> [1,3,5]
 
 
 
