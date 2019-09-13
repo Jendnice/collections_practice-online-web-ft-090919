@@ -30,7 +30,7 @@ def find_a(strings)
  end
 end
   
-[1,2,3,4,5].select{|i| i.odd?} #=> [1,3,5]
+# [1,2,3,4,5].select{|i| i.odd?} #=> [1,3,5]
 
 
 
