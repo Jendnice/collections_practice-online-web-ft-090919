@@ -34,6 +34,17 @@ def sum_array(array)
   array.sum 
 end 
 
+def add_s(array)
+  new_array = []
+  
+  new_array << array.each do |word| word.push("s")
+  end
+  new_array[1] = feet 
+  new_array
+end
+  
+  
+
 
 
 
