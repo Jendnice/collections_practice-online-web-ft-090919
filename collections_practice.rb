@@ -39,7 +39,7 @@ def add_s(array)
   
   array.collect do |word| puts "#{word}s"
   end
-  new_array[1] = feet 
+  new_array[1] = "feet" 
   new_array
 end
   
