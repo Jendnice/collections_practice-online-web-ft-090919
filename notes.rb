@@ -1,3 +1,9 @@
+[1,2,3,4,5].select{|i| i.odd?} #=> [1,3,5]
+
+
+
+
+
 Use for help:
 
 def kesha_maker(array)
