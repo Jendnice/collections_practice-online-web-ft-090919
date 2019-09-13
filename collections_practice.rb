@@ -37,7 +37,7 @@ end
 def add_s(array)
   new_array = []
   
-  new_array << array.each do |word| word.push("s")
+  array.collect do |word| puts "#{word}s"
   end
   new_array[1] = feet 
   new_array
