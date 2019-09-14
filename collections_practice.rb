@@ -35,11 +35,13 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  while array 
-  
-  new_array << array.each_with_index.collect do |word| puts "#{word}s" unless word == array[1] 
+array.collect do |word| 
+  if array[1] == word
+    word
+  else 
+    word + "s"
   end
-  new_array
+ end
 end
   
   
