@@ -2,8 +2,6 @@
 
 
 
-
-
 Use for help:
 
 def kesha_maker(array)
