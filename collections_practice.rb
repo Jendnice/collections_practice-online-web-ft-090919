@@ -44,8 +44,3 @@ array.collect do |word|
  end
 end
   
-  
-
-
-
-
