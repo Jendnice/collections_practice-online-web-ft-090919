@@ -35,7 +35,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each_with_index.collect do |word| puts "#{word}s" unless index == 1 
+  array.each_with_index.collect do |word| puts "#{word}s" unless word == array[1] 
   end
 end
   
