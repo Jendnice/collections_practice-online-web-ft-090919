@@ -35,12 +35,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  new_array = []
-  
-  array.collect do |word| puts "#{word}s"
+  array.each_with_index.collect do |word| puts "#{word}s" unless index == 1 
   end
-  new_array[1] = "feet" 
-  new_array
 end
   
   
